@@ -14,6 +14,6 @@ function removeSmallest(numbers) {
 	if (smallest >= 0) {
 	  numbers.splice(smallest, 1 );
 	}
-	return smallest;     
+	return numbers;    
     }
 removeSmallest([2, 2, 1, 2, 1]);
