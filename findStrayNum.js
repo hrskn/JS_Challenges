@@ -17,10 +17,9 @@ function stray(numbers) {
         }
     }
     if (countStart > countEnd) {
-       return  countStart
+       return  numEnd;
     }
     else {
-      return countEnd;
-    }
+      return numStart;
      
   }
